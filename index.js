@@ -7,9 +7,9 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const classes = [
-    { id: 1, type: 'yoga', capacity: 10, bookings: [], waitlist: [], startTime: new Date('2024-06-06T10:00:00') },
-    { id: 2, type: 'gym', capacity: 15, bookings: [], waitlist: [], startTime: new Date('2024-06-06T12:00:00') },
-    { id: 3, type: 'dance', capacity: 20, bookings: [], waitlist: [], startTime: new Date('2024-06-06T14:00:00') }
+    { id: 1, type: 'Yoga', capacity: 10, bookings: [], waitlist: [], startTime: new Date('2024-06-06T10:00:00') },
+    { id: 2, type: 'Gym', capacity: 15, bookings: [], waitlist: [], startTime: new Date('2024-06-06T12:00:00') },
+    { id: 3, type: 'Dance', capacity: 20, bookings: [], waitlist: [], startTime: new Date('2024-06-06T14:00:00') }
 ];
 
 // API to book a slot
